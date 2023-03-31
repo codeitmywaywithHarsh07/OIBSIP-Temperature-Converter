@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter | Harsh Tripathi</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!-- ---------------------- Navigation Bar ------------------- -->
+  
+  <div class="navigation">
+    <div class="logo">TempConverter</div>
+    <ul class="menu">
+      <li>About</li>
+      <li>Instructions</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  
+  	<!-- -------------------- Container ---------------------- -->
+
+	<div class="container">
+		<h1>Temperature Converter</h1>
+		<input class="num" type="number" id="temperatureInput">
+		<select id="fromUnit">
+			<option value="celsius">Celsius</option>
+			<option value="fahrenheit">Fahrenheit</option>
+			<option value="kelvin">Kelvin</option>
+		</select>
+    <button onclick="convert()">Convert</button>
+		<select id="toUnit">
+			<option value="celsius">Celsius</option>
+			<option value="fahrenheit">Fahrenheit</option>
+			<option value="kelvin">Kelvin</option>
+		</select>
+		<p id="result"></p>
+	</div>
+
+
+	<!----------------------- Script---------------------------- -->
+
+	<script src="script.js"></script>
+  
+	<!-- ---------------------- Footer ---------------------- -->
+
+	<div class="footer">
+		&copy; 2023 Harsh Tripathi India. All rights reserved.
+	</div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
